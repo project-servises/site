@@ -254,7 +254,6 @@ img {
   }
 }
 .aboutUs__head {
-  min-height: 670px;
   max-height: 670px;
   padding-top: 12%;
 }
@@ -276,7 +275,7 @@ img {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  padding-top: 10%;
+  padding-top:15%;
 }
 
 .common-item h2 {
@@ -285,7 +284,10 @@ img {
 
 .services__head {
   background-color: #e4fdf9;
-  padding-top: 12%;
+}
+
+.services__header{
+  padding-top: 25%;
 }
 
 .services__content {
@@ -338,6 +340,10 @@ img {
   border: 2px solid white;
 }
 
+.services__header{
+  margin-top:200px;
+}
+
 @media (max-width: 767px) {
   .title {
     font-size: 24px;
@@ -357,15 +363,10 @@ img {
     margin-top: -80%;
   }
 
-  .common-header {
-    padding-top: -10%;
-  }
+  
 }
 @media (max-width: 1279px) {
   .common-item h2 {
     font-size: 20px;
   }
-}
-.black {
-  font-size: 10px;
 }
