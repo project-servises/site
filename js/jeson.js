@@ -1,16 +1,7 @@
 $(document).ready(function(){
-    /*$('.header__burger').on('click', function(){
+    $('.header__burger').on('click', function(){
         $('.header__burger,.header__menu').toggleClass('active');
     }); 
-
-    $('.services__item').mouseover(function(){
-        $('.services__item a').css({color:'white', transition:'all 2s ease 0s', border:'2px solid white'});     
-    });
-
-    $('.services__item').mouseout(function(){
-        $(".services__item a").css({color:'black',  transition:'all 1s ease 0s', border:'2px solid black'});
-    });
-    */
 
 });
 
