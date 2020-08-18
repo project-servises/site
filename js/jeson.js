@@ -1,4 +1,4 @@
-alert(123)
+alert(123);
 
 /*$(document).ready(function(){
     $('.slider').slick({
