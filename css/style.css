@@ -255,11 +255,11 @@ img {
 }
 .aboutUs__head {
   max-height: 670px;
-  padding-top: 12%;
 }
 
 .common-header {
   text-align: center;
+  padding-top: 15%;
 }
 
 .title {
@@ -275,7 +275,7 @@ img {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  padding-top:15%;
+  padding-top: 15%;
 }
 
 .common-item h2 {
@@ -286,12 +286,9 @@ img {
   background-color: #e4fdf9;
 }
 
-.services__header{
-  padding-top: 25%;
-}
-
 .services__content {
   padding-top: 10%;
+  padding-bottom: 15%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -329,7 +326,6 @@ img {
   color: white;
   box-shadow: 0 0 10px #000000;
 }
-
 .services__item:hover img {
   transition: all 2s ease 0s;
   filter: invert(1);
@@ -340,8 +336,8 @@ img {
   border: 2px solid white;
 }
 
-.services__header{
-  margin-top:200px;
+.services__header {
+  margin-top: 200px;
 }
 
 @media (max-width: 767px) {
@@ -363,7 +359,9 @@ img {
     margin-top: -80%;
   }
 
-  
+  .services__header {
+    margin-top: 300px;
+  }
 }
 @media (max-width: 1279px) {
   .common-item h2 {
