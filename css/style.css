@@ -296,11 +296,12 @@ img {
 @media (max-width: 767px) {
   .aboutUs__content {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    padding-top:25%;
   }
   .aboutUs__header {
     text-align: center;
-    margin-top: -100%;
+    margin-top: -120%;
   }
 }
 
@@ -374,10 +375,6 @@ img {
 
   .text {
     font-size: 16px;
-  }
-
-  .services__header {
-    margin-top: 300px;
   }
 }
 
