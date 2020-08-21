@@ -297,11 +297,13 @@ img {
   .aboutUs__content {
     display: flex;
     flex-direction: column;
-    padding-top:25%;
   }
   .aboutUs__header {
     text-align: center;
     margin-top: -120%;
+  }
+  .aboutUs__item{
+    margin:40px 0;
   }
 }
 
