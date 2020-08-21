@@ -28,6 +28,7 @@ img {
   max-width: 100%;
 }
 
+/*    HEADER   */
 .header {
   position: fixed;
   width: 100%;
@@ -253,6 +254,8 @@ img {
     font-weight: 300;
   }
 }
+/*   HEADER END   */
+/*   ABOUT   */
 .aboutUs__head {
   max-height: 670px;
 }
@@ -278,10 +281,32 @@ img {
   padding-top: 15%;
 }
 
+.aboutUs__header {
+  text-align: center;
+  padding-top: 15%;
+}
+
 .common-item h2 {
   font-size: 22px;
 }
 
+@media (max-width: 767px) {
+  .aboutUs__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10%;
+  }
+
+  .aboutUs__head {
+    margin-top: -160%;
+  }
+
+  .aboutUs__header {
+    padding-top: 2%;
+  }
+}
+/*   ABOUT END   */
+/*   SERVICES   */
 .services__head {
   background-color: #e4fdf9;
 }
@@ -293,17 +318,14 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .services__content h2 {
   font-size: 20px;
 }
-
 .services__content p {
   font-size: 15px;
   line-height: 25px;
   margin-bottom: 50px;
 }
-
 .services__content a {
   font-size: 20px;
   border: 2px solid #000000;
@@ -349,22 +371,75 @@ img {
     font-size: 16px;
   }
 
-  .aboutUs__content {
-    display: flex;
-    flex-direction: column;
-    margin-top: -10%;
-  }
-
-  .aboutUs__head {
-    margin-top: -80%;
-  }
-
   .services__header {
     margin-top: 300px;
   }
 }
+/* SERVICES END*/
 @media (max-width: 1279px) {
   .common-item h2 {
     font-size: 20px;
   }
 }
+/* PORTFOLIO */
+.portfolio__content {
+  padding: 10% 0%;
+}
+
+.portfolio-shap {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.portfolio-shap a {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px 25px;
+  border: 2px solid #00897b;
+  margin: 0 10px;
+}
+.portfolio-shap a:hover {
+  color: white;
+  background-color: #00897b;
+}
+
+.item-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 10%;
+}
+.item-portfolio__content {
+  padding-top: 2%;
+}
+
+.portfolio__button {
+  text-align: center;
+}
+.portfolio__button a {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px 70px;
+  border: 2px solid #00897b;
+}
+.portfolio__button a:hover {
+  color: white;
+  background-color: #00897b;
+}
+
+@media (max-width: 767px) {
+  .portfolio-shap {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+  }
+  .portfolio-shap a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+/* PORTFOLIO END */
