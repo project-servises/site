@@ -254,11 +254,14 @@ img {
     font-weight: 300;
   }
 }
+
+
 /*   HEADER END   */
+
+
+
 /*   ABOUT   */
-.aboutUs__head {
-  max-height: 670px;
-}
+
 
 .common-header {
   text-align: center;
@@ -293,20 +296,22 @@ img {
 @media (max-width: 767px) {
   .aboutUs__content {
     display: flex;
-    flex-direction: column;
-    margin-top: -10%;
+    flex-direction: column; 
   }
-
-  .aboutUs__head {
-    margin-top: -160%;
-  }
-
   .aboutUs__header {
-    padding-top: 2%;
+    text-align: center;
+    margin-top: -100%;
   }
 }
+
+
 /*   ABOUT END   */
+
+
+
 /*   SERVICES   */
+
+
 .services__head {
   background-color: #e4fdf9;
 }
@@ -375,13 +380,21 @@ img {
     margin-top: 300px;
   }
 }
+
+
 /* SERVICES END*/
+
+
 @media (max-width: 1279px) {
   .common-item h2 {
     font-size: 20px;
   }
 }
+
+
 /* PORTFOLIO */
+
+
 .portfolio__content {
   padding: 10% 0%;
 }
@@ -439,7 +452,6 @@ img {
     margin-bottom: 10px;
   }
 }
-
 
 
 /* PORTFOLIO END */
