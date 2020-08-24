@@ -1,3 +1,12 @@
+html{
+	box-sizing: border-box;
+}
+
+*, *:after, *:before{
+	box-sizing: inherit;
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -28,7 +37,10 @@ img {
   max-width: 100%;
 }
 
+
 /*    HEADER   */
+
+
 .header {
   position: fixed;
   width: 100%;
@@ -45,7 +57,7 @@ img {
 
 .header:before {
   content: "";
-  background-color: gray;
+  background-color: white;
   position: absolute;
   top: 0;
   left: 0;
@@ -217,9 +229,9 @@ img {
     height: 100%;
     top: -120%;
     left: 0;
-    background-color: #18b5a4;
+    background-color: #ffffff;
     padding: 70px 0 0 0;
-    transition: all 1s ease 0s;
+    transition: all 1.5s ease 0s;
   }
 
   .header__menu.active {
@@ -254,15 +266,8 @@ img {
     font-weight: 300;
   }
 }
-
-
 /*   HEADER END   */
-
-
-
 /*   ABOUT   */
-
-
 .common-header {
   text-align: center;
   padding-top: 15%;
@@ -298,23 +303,18 @@ img {
     display: flex;
     flex-direction: column;
   }
+
   .aboutUs__header {
     text-align: center;
     margin-top: -120%;
   }
-  .aboutUs__item{
-    margin:40px 0;
+
+  .aboutUs__item {
+    margin: 40px 0;
   }
 }
-
-
 /*   ABOUT END   */
-
-
-
 /*   SERVICES   */
-
-
 .services__head {
   background-color: #e4fdf9;
 }
@@ -379,21 +379,13 @@ img {
     font-size: 16px;
   }
 }
-
-
 /* SERVICES END*/
-
-
 @media (max-width: 1279px) {
   .common-item h2 {
     font-size: 20px;
   }
 }
-
-
 /* PORTFOLIO */
-
-
 .portfolio__content {
   padding: 10% 0%;
 }
@@ -442,18 +434,110 @@ img {
 @media (max-width: 767px) {
   .portfolio-shap {
     display: flex;
-    flex-direction: column;
+		flex-direction: column;
     width: 200px;
-    text-align: center;
+		text-align: center;
   }
   .portfolio-shap a {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .portfolio__button{
-    padding-top:20%;
+
+  .portfolio__button {
+    padding: 25% 0%;
   }
 }
 
 
 /* PORTFOLIO END */
+
+
+
+/* PRICING */
+
+
+.pricing__head {
+  background-color: #f0f1f1;
+}
+
+.pricing__content {
+  display: flex;
+	justify-content: space-between;
+	padding-bottom: 10%;
+}
+
+.pricing__header {
+  padding-bottom: 15%;
+}
+
+.pricing__item {
+  min-width: 31.6216216216%;
+  background-color: white;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+.pricing__item h2 {
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  padding-top: 10%;
+}
+
+.pricing__item__button a{
+  margin-top:10%;
+  border: 2px solid black;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.pricing__item__button {
+  padding:10% 0%;
+}
+
+.pricing__item__price{
+  color:white;
+}
+
+.pricing__item__price b {
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.pricing__item__specifications{
+  padding: 30% 0% 10% 0%;
+  color:#7a7a7a;
+}
+
+.pricing__item__specifications p{
+  border-bottom: 1px solid #7a7a7a;
+  padding: 5% 0%;
+}
+
+.pricing__item__header{
+  background: url("../image/pricing.png") no-repeat;
+}
+
+.pricing__item:hover{
+  box-shadow: 0 0 20px #c8c8c8;
+}
+
+.pricing__item__button a:hover{
+  background-color: #00897b;
+  border: none;
+  color:white;
+}
+
+@media (max-width:767px){
+	.pricing__content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0% 5%;
+	}
+	.pricing__item{
+		width: 100%;
+		margin-top: 10%;
+	}
+}
