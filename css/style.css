@@ -706,6 +706,9 @@ img {
 	.blog__item__content{
 		padding: 0px 20px;
 	}
+	.blog__item__content b{
+		padding-right: 30px;
+	}
 }
 
 
